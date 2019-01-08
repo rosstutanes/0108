@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+   <title></title>
+ </head>
+<body>
+
+   <div id ="high" class="form-group">
+       <label>Highest Number: <span id="result1"></span></label>
+       <input type="text" class="form-control" id="input1" placeholder="1st Number"><br>
+       <input type="text" class="form-control" id="input2" placeholder="2nd Number"><br>
+       <button id="btn1" class="btn btn-dark mb-2">Get Highest Number</button>
+   </div>
+
+  <div id ="grade" class="form-group">
+    <label>Grade Conversation: <span id="result2"></span></label>
+    <input type="text" class="form-control" id="input3" placeholder="Enter Numeric Grade"><br>
+    <button id ="btn2"  class="btn btn-success mb-2">Convert Grade</button>
+  </div>
+
+  <div id="hello" class="form-group">
+   <label><span id="result3">A</span></label><br>
+   <select id ="input4" class="custom-select">
+     <option selected>-----</option>
+     <option id="us" value="1">US</option>
+     <option id="ph" value="2">Philippines</option>
+     <option id="jp" value="3">Japan</option>
+   </select>
+   <button id="btn3" onlick="lang.forEach(myFunction)" class="btn btn-warning mb-2">Get Greeting</button>
+  </div>
+
+
+
+ 
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="js/script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+ </body>
+</html>
